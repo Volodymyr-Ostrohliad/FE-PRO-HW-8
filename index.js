@@ -12,7 +12,7 @@ let totalBalance = 0;
 
 for (let i = 0; i < users.length; i++) {
   const user = users[i];
-  const balance = parseFloat(user.balance.replace(/[^0-9.-]+/g, ""));
+  const balance = parseFloat(user.balance.replace(/[^0-9.]+/g, ""));
 
   if (balance > 2000) {
     phoneNumbers.push(user.phone);
