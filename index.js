@@ -7,7 +7,7 @@ const users = [
   { "index": 5, "isActive": false, "balance": "$1,790.56", "name": "Suzette Lewis", "gender": "female", "phone": "+1 (837) 586-3283", "address": "314 Dunne Place, Bawcomville, Guam, 9053" }
 ];
 
-let phoneNumbers = [];
+const phoneNumbers = [];
 let totalBalance = 0;
 
 for (let i = 0; i < users.length; i++) {
